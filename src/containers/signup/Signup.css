@@ -1,0 +1,63 @@
+.all {
+    display: flex;
+    background-color: white;
+    width: 30%;
+    height: 70%;
+    flex-direction: column;
+    padding: 10px 0px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.signupPageColor {
+    background-color: rgb(51, 51, 139);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupFields {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 350px;
+    outline: none;
+    height: 45px;
+    margin: 8px;
+}
+
+.signupIcons {
+    color: gray;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.termsLabel {
+    margin: 10px;
+    color: gray;
+    width: 415px;
+}
+
+.termsCheckbox {
+    margin-left: 10px;
+}
+
+.termsText {
+    margin-left: 10px;
+}
+
+.registerNowButton {
+    background-color: rgb(54, 54, 130);
+    color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.signupBottom {
+    display: flex;
+    color: gray;
+}

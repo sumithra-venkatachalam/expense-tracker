@@ -1,0 +1,100 @@
+.profileImage {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    font-size: 250px;
+    margin: 50px;
+}
+
+.profilenametop {
+    display: flex;
+    flex-direction: row;
+}
+
+.usernameAndEmail {
+    margin-top: 80px; 
+    margin-left: 0px;
+}
+
+.profileUsername {
+    color: black;
+}
+
+.basicDetailsTitle {
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+
+.bothBasicDeatils {
+    display: flex;
+}
+
+.loggedinEmailAddress {
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.loggedinUsername {
+    margin-left: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.additionalDetailTitle {
+    margin-top: 30px;
+    color: black;
+}
+
+.description {
+    width: 400px;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;    
+}
+
+.inputFieldLabel {
+    width: 134px;
+}
+
+.overAllAdditionalInfo {
+    margin-left: 50px;
+}
+
+.additionalDetailsFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.profileButton {
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    gap: 60px;  
+}
+
+.profileCancelButton {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.profileSaveButton {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: navy;
+    color: white;
+    font-weight: 700;
+}

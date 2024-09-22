@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Petrol",
+        "amount": 100,
+        "date": "26/09/2024",
+        "category": "Vehicle"
+    },
+    {
+        "id": 2,
+        "title": "Food",
+        "amount": 2000,
+        "date": "11/09/2024",
+        "category": "Grocery Items" 
+    },
+    {
+        "id": 3,
+        "title": "House Rent",
+        "amount": 4500,
+        "date": "18/09/2024",
+        "category": "Home"
+    },
+    {
+        "id": 4,
+        "title": "School Fee",
+        "amount": 25000,
+        "date": "24/09/2024",
+        "category": "Education"
+    }
+    
+
+
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Income from salary",
+        "amount": 10000,
+        "date": "16/09/2024",
+        "category": "salary"
+    },
+    {
+        "id": 2,
+        "title": "Income from houseproperty",
+        "amount": 1000,
+        "date": "10/09/2024",
+        "category": "propery"
+    },
+    {
+        "id": 3,
+        "title": "Income from store",
+        "amount": 30000,
+        "date": "18/09/2024",
+        "category": "business"
+    },
+    {
+        "id": 4,
+        "title": "Income from business",
+        "amount": 5000,
+        "date": "24/09/2024",
+        "category": "business"
+    }
+    
+
+
+]

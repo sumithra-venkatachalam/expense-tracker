@@ -1,0 +1,94 @@
+.pageColor {
+    background-color: rgb(51, 51, 139);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.loginColor {
+    background-color:white;
+    width: 30%;
+    height: 65%;
+    display: flex;  
+    flex-direction: column; 
+    margin: 0px;
+    margin-left:  35%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.text1 {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    outline: none;
+    height: 40px;
+    
+}
+
+.bottom {
+    display: flex;
+    color: gray;
+}
+
+.icon1 {
+    padding-right: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.text2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;   
+}
+
+.loginButton{
+    background-color: rgb(54, 54, 130);
+    color: white;
+    width: 20vw;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.remember {
+    margin-left: 8px;
+    color: gray;
+    font-weight: bold;
+    
+}
+
+.forgotPasswordLabel {
+    text-decoration: none;
+    color: rgb(9, 140, 206);
+}
+
+.loginTitle {
+    color: rgb(21, 20, 20);
+}
+
+.signupLink {
+    margin-left: 8px;
+    color:rgb(9, 140, 206);
+    cursor: pointer;
+}
+
+.rememberCheckbox {
+    cursor: pointer;
+}
+
+.errorMessages {
+    color: red;
+    margin-left:25px;
+}
+
+.field2 {
+    display: flex;
+    flex-direction: column;
+}
