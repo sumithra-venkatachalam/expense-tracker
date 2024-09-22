@@ -1,4 +1,4 @@
-import "./profile.css";
+import "./Profile.css";
 import {useContext, useState} from "react";
 import ExpenseContext from "../../context/ExpenseContext.js";
 import { ToastContainer, toast } from 'react-toastify';
