@@ -1,0 +1,73 @@
+.entire {
+    display: flex;
+    font-family: "SUSE", sans-serif;
+    color: gray;
+}
+
+.leftEnd {
+    width: 22vw;
+    height: 110vh;
+    background-color: whitesmoke;
+}
+
+.icons {
+    display: flex; 
+    align-items: center;
+    margin-left: 30px;
+}
+
+.icons:hover{
+    color: rgb(43, 43, 141);
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 20px;
+    font-size: 26px;
+    margin-top: 12px;
+}
+
+.hello {
+    color: rgb(20, 20, 66);
+    font-size: 30px;
+}
+
+.end1 {  
+    width: 78vw;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke; 
+    
+}
+
+.text11{
+    font-size: 26px;
+    margin-right: 5px;
+    margin-top: 18px;
+}
+
+.text12 {
+    font-size: 32px;
+    margin-top: 24px;
+}
+
+.iconss {
+    font-size: 36px;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.logoutButton {
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 26px;
+    font-size: 26px;
+    cursor: pointer;
+    
+}

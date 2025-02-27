@@ -1,0 +1,85 @@
+.dashboardPage {
+    margin-left: 30px;
+}
+
+.dashboardName{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    margin: 0px;
+}
+
+.dashboardSecondPart{
+    margin-left: 50px;
+    color: black;
+    margin-top: 50px;
+    width: 70vw; 
+    height: fit-content;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dashboardpara{
+    margin: 0px;
+}
+
+.entireBox {
+    display: flex;
+    color: black;
+    margin-top: 50px;
+    margin-left: 30px;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.firstBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+}
+ 
+.box1 h2 {
+    font-size: 22px;
+}
+
+.box1 h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.secondBox {
+    display: flex;
+    align-items: center;   
+    border: 1px solid gainsboro;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.thirdBox {
+    display: flex;
+    align-items: center;   
+    border: 1px solid gainsboro;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.dashboardIcon {
+    margin-left: 70px;
+    font-size: 30px;
+    color:white;
+    background-color:navy;
+    padding: 10px 10px 20px 14px;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+

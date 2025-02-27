@@ -1,0 +1,76 @@
+.incomeTitle {
+    margin-left: 30px;
+    color:black;
+}
+
+.eachIncomeCard{
+    width: 300px;
+    height: 160px;
+    border: 2px solid gainsboro;
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.titleAmount{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.title {
+    color: black;
+    font-size: 24px;
+}
+
+.amount {
+    color: navy;
+    font-size: 18px;
+    
+}
+
+.addNewExpense {
+    width: 300px;
+    height: 160px;
+    border: 2px solid gainsboro;
+    background-color: #f5f5f5;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 20px;    
+}
+
+.textForNewExpense {
+    color: black;
+    font-size: 24px;
+    padding-left: 40px;
+}
+
+.iconForNewExpense {
+    border: none;
+    font-size: 30px;
+    margin-left:40%;
+
+}
+
+.expenseBothButton {
+    display: flex;
+    justify-content: space-between
+}
+
+.tableHeading th  {
+    background-color: rgb(175, 175, 197);
+    
+}
+
+.fullTable {
+    width: 80vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
