@@ -40,7 +40,7 @@ function Signup() {
         <div className="signupPageColor">
             <div className="all">
                 <h1>Registeration</h1>
-                <div>
+                <div className="bothIconandInput">
                 <i className="fa-regular fa-user signupIcons"></i>
                 <input className="signupFields" type="text" onChange={signupUsernameFunction} placeholder="Enter your name" />
                 </div>
