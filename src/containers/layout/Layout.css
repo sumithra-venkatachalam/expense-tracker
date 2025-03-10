@@ -2,12 +2,17 @@
     display: flex;
     font-family: "SUSE", sans-serif;
     color: gray;
+    /* position: sticky;
+    top: 0px; */
+    
 }
 
 .leftEnd {
     width: 22vw;
-    height: 110vh;
-    background-color: whitesmoke;
+    height: 100vh;
+    background-color: whitesmoke; 
+    /* position: sticky; */
+    /* top: 0px; */
 }
 
 .icons {
@@ -70,4 +75,10 @@
     font-size: 26px;
     cursor: pointer;
     
+}
+
+.rightEndDiv {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100vh;
 }

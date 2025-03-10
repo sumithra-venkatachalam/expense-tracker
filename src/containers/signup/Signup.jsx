@@ -13,11 +13,11 @@ function Signup() {
     const navigate = useNavigate()
 
     const goToLogin = () => {
-        navigate("/login")
+        navigate("/")
     }
 
     const goToDashboardFromSignup = () => {
-        navigate("/")
+        navigate("/dashbaord")
     }
 
     const signupUsernameFunction = (e) => {

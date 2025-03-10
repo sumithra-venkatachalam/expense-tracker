@@ -9,7 +9,7 @@ function Profile() {
     const {loginUsername, loginEmail} = useContext(ExpenseContext)
 
     const [bioDescription, setbioDescription] = useState("");
-    const [phoneNumber, setPhoneNumber] = useState("");
+    const [phoneNumber, setPhoneNumber] = useState(""); 
     const [currentLocation, setCurrentlocation] = useState("");
     
     const bioDescriptionFunc = (e) => {

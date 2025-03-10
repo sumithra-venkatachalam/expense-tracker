@@ -52,32 +52,7 @@ function Expense() {
         {allExpense}
         <AddExpense/>
         </div>
-        <div className="fullTable"> 
-        {/* <table className= "table table-hover table-bordered">
-  <thead>
-    <tr className="tableHeading" >
-      <th scope="col">#</th>
-      <th scope="col">Expenditure On</th>
-      <th scope="col">Expense Amount</th>
-      <th scope="col">Expense Category</th>
-      <th scope="col">Expense Date</th>
-    </tr>
-  </thead>
-  <tbody>
-
-    {expenseList.map((eachExpense)=>(
-        <tr key={eachExpense.id}>
-            <td>{eachExpense.id}</td>
-            <td>{eachExpense.title}</td>
-            <td>{eachExpense.amount}</td>
-            <td>{eachExpense.category}</td>
-            <td>{eachExpense.date}</td>
-        </tr>
-    ))}
-
-  </tbody>
-</table> */}
-</div>
+  
         
     </div>
     )

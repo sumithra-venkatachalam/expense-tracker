@@ -61,7 +61,7 @@ function Login() {
        
 
         if (hasError === false)
-            navigate("/")
+            navigate("/dashbaord")
     }
 
     const loginEmailFunction = (e) => {

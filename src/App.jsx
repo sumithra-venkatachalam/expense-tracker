@@ -15,18 +15,18 @@ function App() {
     <ExpenseContextProvider> 
     <HashRouter>
     <Routes>
-      <Route path="/login" element={<Login/>}/>
-      <Route path="/signup" element={<Signup/>}/> 
+        <Route path="/" element={<Login/>}/>
+        <Route path="/signup" element={<Signup/>}/> 
 
-    <Route path="/" element={<Layout/>}>
-       <Route path="" element={<Dashboard/>}/>
-       <Route path="expense" element={<Expense/>}/>
-       <Route path="income" element={<Income/>}/>
-       <Route path="profile" element={<Profile/>}/>
-    </Route>
+          <Route path="/dashbaord" element={<Layout/>}>
+            <Route path="" element={<Dashboard/>}/>
+            <Route path="expense" element={<Expense/>}/>
+            <Route path="income" element={<Income/>}/>
+            <Route path="profile" element={<Profile/>}/>
+          </Route>
     </Routes>
     </HashRouter>
-    </ExpenseContextProvider>
+    </ExpenseContextProvider> 
   )
 }
 

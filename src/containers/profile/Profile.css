@@ -8,7 +8,7 @@
 
 .profilenametop {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 .usernameAndEmail {
@@ -17,7 +17,7 @@
 }
 
 .profileUsername {
-    color: black;
+    color: black; 
 }
 
 .basicDetailsTitle {

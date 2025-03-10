@@ -6,7 +6,7 @@ import ExpenseContext from "../../context/ExpenseContext.js";
 function AddIncome() {
   const [financialSource, setFinancialSource] = useState();
   const [incomeAmount, setIncomeAmount] = useState();
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState(); 
   const [date, setDate] = useState();
 
     const {addIncomeModalOpen, setAddIncomeModalOpen, setIncomeList, incomeList, editIncomeId, setEditIncomeId} = useContext(ExpenseContext);
@@ -35,9 +35,9 @@ function AddIncome() {
       const incomeObj = {
         title: financialSource,
         amount: incomeAmount,
-        date: date,
-        category: category,
-        id: editIncomeId === null ? incomeList.length + 1 : editIncomeId,
+        date,
+        category,
+        id: editIncomeId === null ? incomeList.length + 1 : editIncomeId, 
       }
 
       if (editIncomeId !== null) {
@@ -47,7 +47,9 @@ function AddIncome() {
             return eachIncome
             })
             setIncomeList(updatedIncome)
-      } else setIncomeList((previousIncome)=> [...previousIncome,incomeObj])
+      } else setIncomeList((prev) => [...prev, incomeObj])
+
+      
       
 
       setAddIncomeModalOpen(false)
@@ -75,7 +77,7 @@ function AddIncome() {
     setDate(e.target.value)
   }
   
-    return(
+    return( 
         <div>
              <Modal show={addIncomeModalOpen} onHide={handleClose}>
         <Modal.Header closeButton>

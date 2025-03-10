@@ -11,7 +11,7 @@ function Layout() {
 
    const goToExpense = () => {
     navigate("expense")
-   } 
+   }
 
    const goToProfile = () => {
     navigate("profile")
@@ -20,9 +20,9 @@ function Layout() {
    const goToDashboardPage = () => {
     navigate("")
    }
-
+ 
    const loggingOut = () => {
-    navigate("/login") 
+    navigate("/") 
    }
    
     return(
@@ -49,13 +49,13 @@ function Layout() {
             <h1 className="text11" onClick={goToProfile}>Profile</h1>
             </div>
         </div>
-        <div>
-        <div className="end1">
+        <div className="rightEndDiv">
+        <div className="end1"> 
         <i className="fa-solid fa-user icon"></i>
         <h1 className="text11">Profile</h1>
         <i onClick={loggingOut} className="fa fa-sign-out logoutButton" aria-hidden="true"></i>
         </div>
-        <div className="hhh">
+        <div className="rightContainer">
             <Outlet/>
         </div>  
         </div>
